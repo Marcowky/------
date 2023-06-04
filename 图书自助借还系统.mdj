@@ -15729,6 +15729,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIhdRpEGpQw3Q=",
+											"_parent": {
+												"$ref": "AAAAAAGH6zM9WMjNx0s="
+											},
+											"model": {
+												"$ref": "AAAAAAGIhdRo8mpNLi8="
+											},
+											"font": "Arial;13;0",
+											"left": 701,
+											"top": 75,
+											"width": 394.5576171875,
+											"height": 13,
+											"text": "-系统数据ID: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH6znBF8jz4h8=",
 											"_parent": {
 												"$ref": "AAAAAAGH6zM9WMjNx0s="
@@ -15738,7 +15755,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 75,
+											"top": 90,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-教师在借书籍上限: Integer = 10",
@@ -15755,7 +15772,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 90,
+											"top": 105,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-教师单次借阅最长时间: Integer = 90",
@@ -15772,7 +15789,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 105,
+											"top": 120,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-学生在借书籍上限: Integer = 5",
@@ -15789,7 +15806,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 120,
+											"top": 135,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-学生单次借阅最长时间: Integer = 60",
@@ -15806,7 +15823,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 135,
+											"top": 150,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-单个用户每年同一本书可借阅总时间: Integer = 180",
@@ -15823,7 +15840,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 150,
+											"top": 165,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-书籍即将到期通知信息: String = \"您借阅的《xx》书即将到期\"",
@@ -15840,7 +15857,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 165,
+											"top": 180,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-校园卡过期提示: String = \"卡已过期\"",
@@ -15857,7 +15874,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 180,
+											"top": 195,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-校园卡挂失提示: String = \"卡已挂失\"",
@@ -15874,7 +15891,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 195,
+											"top": 210,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-书籍条形码无法识别提示: String = \"书籍无法识别，请到柜台归还！\"",
@@ -15891,10 +15908,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 210,
+											"top": 225,
 											"width": 394.5576171875,
 											"height": 13,
-											"text": "-发送即将到期通知提前天数: Integar = 5",
+											"text": "-发送即将到期通知提前天数: Integer = 5",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15908,7 +15925,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 225,
+											"top": 240,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-调整日期: DateTime",
@@ -15925,10 +15942,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 240,
+											"top": 255,
 											"width": 394.5576171875,
 											"height": 13,
-											"text": "-默认借阅到期时间: Integar = 30",
+											"text": "-默认借阅到期时间: Integer = 30",
 											"horizontalAlignment": 0
 										}
 									],
@@ -15936,7 +15953,7 @@
 									"left": 696,
 									"top": 70,
 									"width": 404.5576171875,
-									"height": 188
+									"height": 203
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -15992,7 +16009,7 @@
 							"left": 696,
 							"top": 32,
 							"width": 404.5576171875,
-							"height": 226,
+							"height": 241,
 							"nameCompartment": {
 								"$ref": "AAAAAAGH6zM9WMjIbV0="
 							},
@@ -16037,8 +16054,8 @@
 												"$ref": "AAAAAAGH7FhzdxHvgWg="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 285,
+											"left": 901,
+											"top": 293,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "«entity»"
@@ -16050,8 +16067,8 @@
 												"$ref": "AAAAAAGH7FhzdxHvgWg="
 											},
 											"font": "Arial;13;1",
-											"left": 909,
-											"top": 300,
+											"left": 901,
+											"top": 308,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "书籍"
@@ -16064,8 +16081,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 768,
-											"top": -224,
+											"left": 752,
+											"top": -208,
 											"width": 90.27001953125,
 											"height": 13,
 											"text": "(from 静态建模)"
@@ -16078,15 +16095,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 768,
-											"top": -224,
+											"left": 752,
+											"top": -208,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 904,
-									"top": 280,
+									"left": 896,
+									"top": 288,
 									"width": 111.8544921875,
 									"height": 38,
 									"stereotypeLabel": {
@@ -16122,8 +16139,8 @@
 												"$ref": "AAAAAAGH7FlkKxInWQQ="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 323,
+											"left": 901,
+											"top": 331,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-书籍ID: String",
@@ -16139,8 +16156,8 @@
 												"$ref": "AAAAAAGH7FjbpxIZJ3g="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 338,
+											"left": 901,
+											"top": 346,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-名称: String",
@@ -16156,8 +16173,8 @@
 												"$ref": "AAAAAAGH7FlS+hIg/ng="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 353,
+											"left": 901,
+											"top": 361,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-作者: String",
@@ -16173,8 +16190,8 @@
 												"$ref": "AAAAAAGH7I8tc2N8pWc="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 368,
+											"left": 901,
+											"top": 376,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-书籍状态: String",
@@ -16190,8 +16207,8 @@
 												"$ref": "AAAAAAGH71AU4C5H8sQ="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 383,
+											"left": 901,
+											"top": 391,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-书籍ISBN: String",
@@ -16207,8 +16224,8 @@
 												"$ref": "AAAAAAGH+Qka0CtDAME="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 398,
+											"left": 901,
+											"top": 406,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-出版社: String",
@@ -16224,8 +16241,8 @@
 												"$ref": "AAAAAAGH+Qm7KCyXuY8="
 											},
 											"font": "Arial;13;0",
-											"left": 909,
-											"top": 413,
+											"left": 901,
+											"top": 421,
 											"width": 101.8544921875,
 											"height": 13,
 											"text": "-价格: Real",
@@ -16233,8 +16250,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 904,
-									"top": 318,
+									"left": 896,
+									"top": 326,
 									"width": 111.8544921875,
 									"height": 113
 								},
@@ -16249,8 +16266,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 944,
-									"top": 619,
+									"left": 936,
+									"top": 627,
 									"width": 62,
 									"height": 10
 								},
@@ -16265,8 +16282,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 424,
-									"top": 192,
+									"left": 416,
+									"top": 200,
 									"width": 10,
 									"height": 10
 								},
@@ -16281,16 +16298,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 424,
-									"top": 192,
+									"left": 416,
+									"top": 200,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 904,
-							"top": 280,
+							"left": 896,
+							"top": 288,
 							"width": 111.8544921875,
 							"height": 151,
 							"nameCompartment": {
@@ -16338,7 +16355,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 285,
+											"top": 293,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "«entity»"
@@ -16351,7 +16368,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 701,
-											"top": 300,
+											"top": 308,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "借阅记录"
@@ -16365,7 +16382,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 192,
-											"top": 16,
+											"top": 32,
 											"width": 90.27001953125,
 											"height": 13,
 											"text": "(from 静态建模)"
@@ -16379,14 +16396,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 192,
-											"top": 16,
+											"top": 32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 696,
-									"top": 280,
+									"top": 288,
 									"width": 164.47021484375,
 									"height": 38,
 									"stereotypeLabel": {
@@ -16414,6 +16431,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIhdMiTlC6fXg=",
+											"_parent": {
+												"$ref": "AAAAAAGH7FqJRhI+So0="
+											},
+											"model": {
+												"$ref": "AAAAAAGIhdMiMVC32Ak="
+											},
+											"font": "Arial;13;0",
+											"left": 701,
+											"top": 331,
+											"width": 154.47021484375,
+											"height": 13,
+											"text": "-借阅记录ID: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH7FqyuhJlhSs=",
 											"_parent": {
 												"$ref": "AAAAAAGH7FqJRhI+So0="
@@ -16423,10 +16457,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 323,
+											"top": 346,
 											"width": 154.47021484375,
 											"height": 13,
-											"text": "-借阅书籍ID: String",
+											"text": "-书籍ID: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -16440,10 +16474,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 338,
+											"top": 361,
 											"width": 154.47021484375,
 											"height": 13,
-											"text": "-借阅者编号: String",
+											"text": "-用户编号: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -16457,7 +16491,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 353,
+											"top": 376,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "-借阅开始时间: DateTime",
@@ -16474,7 +16508,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 368,
+											"top": 391,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "-借阅到期时间: DateTime",
@@ -16491,7 +16525,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 383,
+											"top": 406,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "-归还日期: DateTime = null",
@@ -16508,7 +16542,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 398,
+											"top": 421,
 											"width": 154.47021484375,
 											"height": 13,
 											"text": "-自助借还机ID: String",
@@ -16517,9 +16551,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 696,
-									"top": 318,
+									"top": 326,
 									"width": 164.47021484375,
-									"height": 98
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -16533,7 +16567,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 688,
-									"top": 451,
+									"top": 459,
 									"width": 62,
 									"height": 10
 								},
@@ -16549,7 +16583,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 88,
-									"top": 144,
+									"top": 152,
 									"width": 10,
 									"height": 10
 								},
@@ -16565,7 +16599,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 88,
-									"top": 144,
+									"top": 152,
 									"width": 10,
 									"height": 10
 								}
@@ -16573,9 +16607,9 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 696,
-							"top": 280,
+							"top": 288,
 							"width": 164.47021484375,
-							"height": 136,
+							"height": 151,
 							"nameCompartment": {
 								"$ref": "AAAAAAGH7FqJRhI5PY8="
 							},
@@ -16811,7 +16845,7 @@
 											"top": 165,
 											"width": 207,
 											"height": 13,
-											"text": "-最后维护人员职工号: String",
+											"text": "-维护人员职工号: String",
 											"horizontalAlignment": 0
 										}
 									],
@@ -16997,6 +17031,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIhdRpE2pTS3U=",
+											"_parent": {
+												"$ref": "AAAAAAGH7IfstlqmTKg="
+											},
+											"model": {
+												"$ref": "AAAAAAGIhdRo8mpNLi8="
+											},
+											"font": "Arial;13;0",
+											"left": 445,
+											"top": 326,
+											"width": 394.5576171875,
+											"height": 13,
+											"text": "-系统数据ID: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH7IfstlqnZ0c=",
 											"_parent": {
 												"$ref": "AAAAAAGH7IfstlqmTKg="
@@ -17006,7 +17057,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 326,
+											"top": 341,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-教师在借书籍上限: Integer = 10",
@@ -17023,7 +17074,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 341,
+											"top": 356,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-教师单次借阅最长时间: Integer = 90",
@@ -17040,7 +17091,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 356,
+											"top": 371,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-学生在借书籍上限: Integer = 5",
@@ -17057,7 +17108,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 371,
+											"top": 386,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-学生单次借阅最长时间: Integer = 60",
@@ -17074,7 +17125,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 386,
+											"top": 401,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-单个用户每年同一本书可借阅总时间: Integer = 180",
@@ -17091,7 +17142,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 401,
+											"top": 416,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-书籍即将到期通知信息: String = \"您借阅的《xx》书即将到期\"",
@@ -17108,7 +17159,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 416,
+											"top": 431,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-校园卡过期提示: String = \"卡已过期\"",
@@ -17125,7 +17176,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 431,
+											"top": 446,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-校园卡挂失提示: String = \"卡已挂失\"",
@@ -17142,7 +17193,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 446,
+											"top": 461,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-书籍条形码无法识别提示: String = \"书籍无法识别，请到柜台归还！\"",
@@ -17159,10 +17210,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 461,
+											"top": 476,
 											"width": 394.5576171875,
 											"height": 13,
-											"text": "-发送即将到期通知提前天数: Integar = 5",
+											"text": "-发送即将到期通知提前天数: Integer = 5",
 											"horizontalAlignment": 0
 										},
 										{
@@ -17176,7 +17227,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 476,
+											"top": 491,
 											"width": 394.5576171875,
 											"height": 13,
 											"text": "-调整日期: DateTime",
@@ -17193,10 +17244,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 445,
-											"top": 491,
+											"top": 506,
 											"width": 394.5576171875,
 											"height": 13,
-											"text": "-默认借阅到期时间: Integar = 30",
+											"text": "-默认借阅到期时间: Integer = 30",
 											"horizontalAlignment": 0
 										}
 									],
@@ -17205,7 +17256,7 @@
 									"left": 440,
 									"top": 321,
 									"width": 404.5576171875,
-									"height": 188
+									"height": 203
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -17498,7 +17549,7 @@
 											"top": 416,
 											"width": 187.68115234375,
 											"height": 13,
-											"text": "-最后维护人员职工号: String",
+											"text": "-维护人员职工号: String",
 											"horizontalAlignment": 0
 										}
 									],
@@ -17988,6 +18039,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIhdMiUlC9DLg=",
+											"_parent": {
+												"$ref": "AAAAAAGH7IjFCVvC5gM="
+											},
+											"model": {
+												"$ref": "AAAAAAGIhdMiMVC32Ak="
+											},
+											"font": "Arial;13;0",
+											"left": 517,
+											"top": 195,
+											"width": 167.47021484375,
+											"height": 13,
+											"text": "-借阅记录ID: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH7IjFCVvD3p4=",
 											"_parent": {
 												"$ref": "AAAAAAGH7IjFCVvC5gM="
@@ -17997,10 +18065,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 195,
+											"top": 210,
 											"width": 167.47021484375,
 											"height": 13,
-											"text": "-借阅书籍ID: String",
+											"text": "-书籍ID: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18014,10 +18082,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 210,
+											"top": 225,
 											"width": 167.47021484375,
 											"height": 13,
-											"text": "-借阅者编号: String",
+											"text": "-用户编号: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18031,7 +18099,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 225,
+											"top": 240,
 											"width": 167.47021484375,
 											"height": 13,
 											"text": "-借阅开始时间: DateTime",
@@ -18048,7 +18116,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 240,
+											"top": 255,
 											"width": 167.47021484375,
 											"height": 13,
 											"text": "-借阅到期时间: DateTime",
@@ -18065,7 +18133,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 255,
+											"top": 270,
 											"width": 167.47021484375,
 											"height": 13,
 											"text": "-归还日期: DateTime = null",
@@ -18082,7 +18150,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 270,
+											"top": 285,
 											"width": 167.47021484375,
 											"height": 13,
 											"text": "-自助借还机ID: String",
@@ -18094,7 +18162,7 @@
 									"left": 512,
 									"top": 190,
 									"width": 177.47021484375,
-									"height": 98
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -18748,9 +18816,9 @@
 												"$ref": "AAAAAAGH70lM3gLjVhA="
 											},
 											"font": "Arial;13;0",
-											"left": 1229,
-											"top": 285,
-											"width": 103,
+											"left": 1197,
+											"top": 293,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -18761,9 +18829,9 @@
 												"$ref": "AAAAAAGH70lM3gLjVhA="
 											},
 											"font": "Arial;13;1",
-											"left": 1229,
-											"top": 300,
-											"width": 103,
+											"left": 1197,
+											"top": 308,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "系统维护人员"
 										},
@@ -18775,8 +18843,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 816,
-											"top": 240,
+											"left": 752,
+											"top": 256,
 											"width": 90.27001953125,
 											"height": 13,
 											"text": "(from 静态建模)"
@@ -18789,16 +18857,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 816,
-											"top": 240,
+											"left": 752,
+											"top": 256,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1224,
-									"top": 280,
-									"width": 113,
+									"left": 1192,
+									"top": 288,
+									"width": 146.5126953125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH70lM3gLkSwQ="
@@ -18825,23 +18893,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGH+Puykfq/Uxk=",
-											"_parent": {
-												"$ref": "AAAAAAGH70lM3wLoeh8="
-											},
-											"model": {
-												"$ref": "AAAAAAGH+Puyevq29Vg="
-											},
-											"font": "Arial;13;0",
-											"left": 1229,
-											"top": 323,
-											"width": 103,
-											"height": 13,
-											"text": "-姓名: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH+Pvky/wTqrc=",
 											"_parent": {
 												"$ref": "AAAAAAGH70lM3wLoeh8="
@@ -18850,11 +18901,28 @@
 												"$ref": "AAAAAAGH+PvkvvwKVEo="
 											},
 											"font": "Arial;13;0",
-											"left": 1229,
-											"top": 338,
-											"width": 103,
+											"left": 1197,
+											"top": 331,
+											"width": 136.5126953125,
 											"height": 13,
-											"text": "-职工号: String",
+											"text": "-维护人员职工号: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH+Puykfq/Uxk=",
+											"_parent": {
+												"$ref": "AAAAAAGH70lM3wLoeh8="
+											},
+											"model": {
+												"$ref": "AAAAAAGH+Puyevq29Vg="
+											},
+											"font": "Arial;13;0",
+											"left": 1197,
+											"top": 346,
+											"width": 136.5126953125,
+											"height": 13,
+											"text": "-姓名: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18867,9 +18935,9 @@
 												"$ref": "AAAAAAGH+Pv4jP3l/P0="
 											},
 											"font": "Arial;13;0",
-											"left": 1229,
-											"top": 353,
-											"width": 103,
+											"left": 1197,
+											"top": 361,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "-密码: String",
 											"horizontalAlignment": 0
@@ -18884,18 +18952,18 @@
 												"$ref": "AAAAAAGH+PwhrP85mxw="
 											},
 											"font": "Arial;13;0",
-											"left": 1229,
-											"top": 368,
-											"width": 103,
+											"left": 1197,
+											"top": 376,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "-电话: String",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1224,
-									"top": 318,
-									"width": 113,
+									"left": 1192,
+									"top": 326,
+									"width": 146.5126953125,
 									"height": 68
 								},
 								{
@@ -18909,8 +18977,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1000,
-									"top": 315,
+									"left": 968,
+									"top": 323,
 									"width": 88,
 									"height": 10
 								},
@@ -18925,8 +18993,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 184,
-									"top": 120,
+									"left": 152,
+									"top": 128,
 									"width": 10,
 									"height": 10
 								},
@@ -18941,17 +19009,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 184,
-									"top": 120,
+									"left": 152,
+									"top": 128,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1224,
-							"top": 280,
-							"width": 113,
+							"left": 1192,
+							"top": 288,
+							"width": 146.5126953125,
 							"height": 106,
 							"nameCompartment": {
 								"$ref": "AAAAAAGH70lM3gLjVhA="
@@ -18997,8 +19065,8 @@
 												"$ref": "AAAAAAGH70wpZhodvas="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 285,
+											"left": 1045,
+											"top": 293,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "«entity»"
@@ -19010,8 +19078,8 @@
 												"$ref": "AAAAAAGH70wpZhodvas="
 											},
 											"font": "Arial;13;1",
-											"left": 1061,
-											"top": 300,
+											"left": 1045,
+											"top": 308,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "校园卡"
@@ -19024,8 +19092,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 480,
-											"top": -256,
+											"left": 448,
+											"top": -240,
 											"width": 90.27001953125,
 											"height": 13,
 											"text": "(from 静态建模)"
@@ -19038,15 +19106,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 480,
-											"top": -256,
+											"left": 448,
+											"top": -240,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1056,
-									"top": 280,
+									"left": 1040,
+									"top": 288,
 									"width": 120.5126953125,
 									"height": 38,
 									"stereotypeLabel": {
@@ -19074,23 +19142,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGICM+2As6TSTs=",
-											"_parent": {
-												"$ref": "AAAAAAGH70wpZhoiuug="
-											},
-											"model": {
-												"$ref": "AAAAAAGICM+1786KowI="
-											},
-											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 323,
-											"width": 110.5126953125,
-											"height": 13,
-											"text": "-卡号: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH70zEYhuMCbM=",
 											"_parent": {
 												"$ref": "AAAAAAGH70wpZhoiuug="
@@ -19099,11 +19150,28 @@
 												"$ref": "AAAAAAGH70zEThuAA7M="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 338,
+											"left": 1045,
+											"top": 331,
 											"width": 110.5126953125,
 											"height": 13,
-											"text": "-编号: String",
+											"text": "-用户编号: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGICM+2As6TSTs=",
+											"_parent": {
+												"$ref": "AAAAAAGH70wpZhoiuug="
+											},
+											"model": {
+												"$ref": "AAAAAAGICM+1786KowI="
+											},
+											"font": "Arial;13;0",
+											"left": 1045,
+											"top": 346,
+											"width": 110.5126953125,
+											"height": 13,
+											"text": "-卡号: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -19116,8 +19184,8 @@
 												"$ref": "AAAAAAGH700IjRxx3+I="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 353,
+											"left": 1045,
+											"top": 361,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "-单位: String",
@@ -19133,8 +19201,8 @@
 												"$ref": "AAAAAAGIBIXx+boNb1Y="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 368,
+											"left": 1045,
+											"top": 376,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "-岗位: String",
@@ -19150,11 +19218,11 @@
 												"$ref": "AAAAAAGH7002HR1Qrks="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 383,
+											"left": 1045,
+											"top": 391,
 											"width": 110.5126953125,
 											"height": 13,
-											"text": "-已借册数: Integar",
+											"text": "-已借册数: Integer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -19167,8 +19235,8 @@
 												"$ref": "AAAAAAGH+P59LwEF4B8="
 											},
 											"font": "Arial;13;0",
-											"left": 1061,
-											"top": 398,
+											"left": 1045,
+											"top": 406,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "-有效期: DateTime",
@@ -19176,8 +19244,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1056,
-									"top": 318,
+									"left": 1040,
+									"top": 326,
 									"width": 120.5126953125,
 									"height": 98
 								},
@@ -19192,8 +19260,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1056,
-									"top": 363,
+									"left": 1040,
+									"top": 371,
 									"width": 51.919921875,
 									"height": 10
 								},
@@ -19208,8 +19276,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 240,
-									"top": -80,
+									"left": 224,
+									"top": -72,
 									"width": 10,
 									"height": 10
 								},
@@ -19224,16 +19292,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 240,
-									"top": -80,
+									"left": 224,
+									"top": -72,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1056,
-							"top": 280,
+							"left": 1040,
+							"top": 288,
 							"width": 120.5126953125,
 							"height": 136,
 							"nameCompartment": {
@@ -19357,23 +19425,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGH+PuykvrCm5w=",
-											"_parent": {
-												"$ref": "AAAAAAGH71EaOz2kHVk="
-											},
-											"model": {
-												"$ref": "AAAAAAGH+Puyevq29Vg="
-											},
-											"font": "Arial;13;0",
-											"left": 29,
-											"top": 339,
-											"width": 123.5126953125,
-											"height": 13,
-											"text": "-姓名: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH+PvkzPwWZrI=",
 											"_parent": {
 												"$ref": "AAAAAAGH71EaOz2kHVk="
@@ -19383,10 +19434,27 @@
 											},
 											"font": "Arial;13;0",
 											"left": 29,
-											"top": 354,
-											"width": 123.5126953125,
+											"top": 339,
+											"width": 136.5126953125,
 											"height": 13,
-											"text": "-职工号: String",
+											"text": "-维护人员职工号: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH+PuykvrCm5w=",
+											"_parent": {
+												"$ref": "AAAAAAGH71EaOz2kHVk="
+											},
+											"model": {
+												"$ref": "AAAAAAGH+Puyevq29Vg="
+											},
+											"font": "Arial;13;0",
+											"left": 29,
+											"top": 354,
+											"width": 136.5126953125,
+											"height": 13,
+											"text": "-姓名: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -19401,7 +19469,7 @@
 											"font": "Arial;13;0",
 											"left": 29,
 											"top": 369,
-											"width": 123.5126953125,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "-密码: String",
 											"horizontalAlignment": 0
@@ -19418,7 +19486,7 @@
 											"font": "Arial;13;0",
 											"left": 29,
 											"top": 384,
-											"width": 123.5126953125,
+											"width": 136.5126953125,
 											"height": 13,
 											"text": "-电话: String",
 											"horizontalAlignment": 0
@@ -19428,7 +19496,7 @@
 									"font": "Arial;13;0",
 									"left": 24,
 									"top": 334,
-									"width": 133.5126953125,
+									"width": 146.5126953125,
 									"height": 68
 								},
 								{
@@ -19608,23 +19676,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGICM+2A86WNg4=",
-											"_parent": {
-												"$ref": "AAAAAAGH71EaOz2vQ9c="
-											},
-											"model": {
-												"$ref": "AAAAAAGICM+1786KowI="
-											},
-											"font": "Arial;13;0",
-											"left": 277,
-											"top": 195,
-											"width": 110.5126953125,
-											"height": 13,
-											"text": "-卡号: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGH71EaOz2wiII=",
 											"_parent": {
 												"$ref": "AAAAAAGH71EaOz2vQ9c="
@@ -19634,10 +19685,27 @@
 											},
 											"font": "Arial;13;0",
 											"left": 277,
+											"top": 195,
+											"width": 110.5126953125,
+											"height": 13,
+											"text": "-用户编号: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGICM+2A86WNg4=",
+											"_parent": {
+												"$ref": "AAAAAAGH71EaOz2vQ9c="
+											},
+											"model": {
+												"$ref": "AAAAAAGICM+1786KowI="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
 											"top": 210,
 											"width": 110.5126953125,
 											"height": 13,
-											"text": "-编号: String",
+											"text": "-卡号: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -19688,7 +19756,7 @@
 											"top": 255,
 											"width": 110.5126953125,
 											"height": 13,
-											"text": "-已借册数: Integar",
+											"text": "-已借册数: Integer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -21492,6 +21560,16 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIhdRo8mpNLi8=",
+							"_parent": {
+								"$ref": "AAAAAAGH6zM9WMjFCic="
+							},
+							"name": "系统数据ID",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAGH6znBDsjwxcg=",
 							"_parent": {
 								"$ref": "AAAAAAGH6zM9WMjFCic="
@@ -21597,7 +21675,7 @@
 							},
 							"name": "发送即将到期通知提前天数",
 							"visibility": "private",
-							"type": "Integar",
+							"type": "Integer",
 							"defaultValue": "5"
 						},
 						{
@@ -21618,7 +21696,7 @@
 							},
 							"name": "默认借阅到期时间",
 							"visibility": "private",
-							"type": "Integar",
+							"type": "Integer",
 							"defaultValue": "30"
 						}
 					]
@@ -21779,11 +21857,21 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIhdMiMVC32Ak=",
+							"_parent": {
+								"$ref": "AAAAAAGH7FqJRhI2LH0="
+							},
+							"name": "借阅记录ID",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAGH7FqytRJiFLQ=",
 							"_parent": {
 								"$ref": "AAAAAAGH7FqJRhI2LH0="
 							},
-							"name": "借阅书籍ID",
+							"name": "书籍ID",
 							"visibility": "private",
 							"type": "String"
 						},
@@ -21793,7 +21881,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH7FqJRhI2LH0="
 							},
-							"name": "借阅者编号",
+							"name": "用户编号",
 							"visibility": "private",
 							"type": "String"
 						},
@@ -22041,7 +22129,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH7F3jEhKGXjQ="
 							},
-							"name": "最后维护人员职工号",
+							"name": "维护人员职工号",
 							"visibility": "private",
 							"type": "String"
 						}
@@ -22091,21 +22179,21 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAGH+Puyevq29Vg=",
+							"_id": "AAAAAAGH+PvkvvwKVEo=",
 							"_parent": {
 								"$ref": "AAAAAAGH70lM3QLg0OI="
 							},
-							"name": "姓名",
+							"name": "维护人员职工号",
 							"visibility": "private",
 							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAGH+PvkvvwKVEo=",
+							"_id": "AAAAAAGH+Puyevq29Vg=",
 							"_parent": {
 								"$ref": "AAAAAAGH70lM3QLg0OI="
 							},
-							"name": "职工号",
+							"name": "姓名",
 							"visibility": "private",
 							"type": "String"
 						},
@@ -22175,21 +22263,21 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAGICM+1786KowI=",
+							"_id": "AAAAAAGH70zEThuAA7M=",
 							"_parent": {
 								"$ref": "AAAAAAGH70wpZRoazxA="
 							},
-							"name": "卡号",
+							"name": "用户编号",
 							"visibility": "private",
 							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAGH70zEThuAA7M=",
+							"_id": "AAAAAAGICM+1786KowI=",
 							"_parent": {
 								"$ref": "AAAAAAGH70wpZRoazxA="
 							},
-							"name": "编号",
+							"name": "卡号",
 							"visibility": "private",
 							"type": "String"
 						},
@@ -22221,7 +22309,7 @@
 							},
 							"name": "已借册数",
 							"visibility": "private",
-							"type": "Integar"
+							"type": "Integer"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -22278,7 +22366,7 @@
 												"$ref": "AAAAAAGIBLtB4McFids="
 											},
 											"font": "Arial;13;0",
-											"left": 64.72998046875,
+											"left": 62.55908203125,
 											"top": 37,
 											"width": 144,
 											"height": 13,
@@ -22293,7 +22381,7 @@
 											"font": "Arial;13;1",
 											"left": 45,
 											"top": 37,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -39532,7 +39620,7 @@
 												"$ref": "AAAAAAGICFtQIMLzX7g="
 											},
 											"font": "Arial;13;0",
-											"left": 48.72998046875,
+											"left": 46.55908203125,
 											"top": 37,
 											"width": 118,
 											"height": 13,
@@ -39547,7 +39635,7 @@
 											"font": "Arial;13;1",
 											"left": 29,
 											"top": 37,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
